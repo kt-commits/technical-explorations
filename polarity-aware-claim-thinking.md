@@ -1,4 +1,5 @@
-# Polarity-Aware Claim Linking (Notes for Yi)
+# Polarity-Aware Claim Linking
+### Author: Krti Tallam
 
 Hi Yi — here’s the succinct write-up of the idea I floated today about tracking negation explicitly.
 
@@ -46,5 +47,3 @@ And, a JSON Sketch:
 }
 ```
 Contradiction check == same proposition + opposite polarity.
-
-Author: Krti Tallam
