@@ -17,7 +17,8 @@ In vector space, they’re practically neighbors even though they contradict eac
 
 ---
 
-## 2  My Lightweight Fix — Add a `polarity` Field
+## 2  My Lightweight Fix: Add a `polarity` Field
+#### These are rough thoughts.
 
 | Step | What I Do | Why It Helps |
 |------|-----------|--------------|
