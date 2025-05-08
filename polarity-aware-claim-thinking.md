@@ -1,19 +1,18 @@
 # Polarity-Aware Claim Linking (Notes for Yi)
 
-Hi Yi—here’s the succinct write-up of the idea I floated today about tracking negation explicitly.
+Hi Yi — here’s the succinct write-up of the idea I floated today about tracking negation explicitly.
 
 ---
 
 ## 1  Why I’m Thinking About This
 
-I love that we already extract **atomic claims**—tiny, self-contained assertions.  
+I love that we already extract **atomic claims** — tiny, self-contained assertions.  
 The catch: when I embed those sentences with off-the-shelf models (BERT, MiniLM, etc.), they happily blur negation:
 
 `“She won the election.” ≈ “She failed to win the election.”`
 
 
-In vector space, they’re practically neighbors even though they contradict each other.  
-That’s a problem if we want to surface disagreements or support relationships automatically.
+In vector space, they’re practically neighbors even though they contradict each other. That’s a problem if we want to surface disagreements or support relationships automatically.
 
 ---
 
@@ -46,4 +45,6 @@ And, a JSON Sketch:
   "raw_text": "The product is no longer available."
 }
 ```
-Contradiction check == same proposition + opposite polarity. Simple.
+Contradiction check == same proposition + opposite polarity.
+
+Author: Krti Tallam
